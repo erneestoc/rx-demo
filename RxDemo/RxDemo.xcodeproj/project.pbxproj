@@ -13,7 +13,6 @@
 		022FF07E2165BEE50018FF9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022FF07D2165BEE50018FF9D /* Assets.xcassets */; };
 		022FF0812165BEE50018FF9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 022FF07F2165BEE50018FF9D /* LaunchScreen.storyboard */; };
 		022FF0892165C0260018FF9D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022FF0882165C0260018FF9D /* MenuViewController.swift */; };
-		022FF08D2165C2750018FF9D /* TrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022FF08C2165C2750018FF9D /* TrackingViewController.swift */; };
 		022FF08F2165C5740018FF9D /* FormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022FF08E2165C5740018FF9D /* FormViewModel.swift */; };
 		022FF0912165D2440018FF9D /* ExampleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022FF0902165D2440018FF9D /* ExampleButton.swift */; };
 		A5471C5BED65115B8BA6DD34 /* Pods_RxDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14FA8AF523A418A24898C8B /* Pods_RxDemo.framework */; };
@@ -28,7 +27,6 @@
 		022FF0802165BEE50018FF9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		022FF0822165BEE50018FF9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		022FF0882165C0260018FF9D /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		022FF08C2165C2750018FF9D /* TrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingViewController.swift; sourceTree = "<group>"; };
 		022FF08E2165C5740018FF9D /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
 		022FF0902165D2440018FF9D /* ExampleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleButton.swift; sourceTree = "<group>"; };
 		15FCA01B56907672121330A7 /* Pods-RxDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxDemo/Pods-RxDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -70,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				022FF08A2165C2530018FF9D /* form_example */,
-				022FF08B2165C25D0018FF9D /* tracking_example */,
 				022FF0762165BEE20018FF9D /* AppDelegate.swift */,
 				022FF07A2165BEE20018FF9D /* Main.storyboard */,
 				022FF07D2165BEE50018FF9D /* Assets.xcassets */,
@@ -89,14 +86,6 @@
 				022FF08E2165C5740018FF9D /* FormViewModel.swift */,
 			);
 			path = form_example;
-			sourceTree = "<group>";
-		};
-		022FF08B2165C25D0018FF9D /* tracking_example */ = {
-			isa = PBXGroup;
-			children = (
-				022FF08C2165C2750018FF9D /* TrackingViewController.swift */,
-			);
-			path = tracking_example;
 			sourceTree = "<group>";
 		};
 		0BC600C5B36EEBB1D4011C58 /* Pods */ = {
@@ -234,7 +223,6 @@
 			files = (
 				022FF08F2165C5740018FF9D /* FormViewModel.swift in Sources */,
 				022FF0792165BEE20018FF9D /* FormViewController.swift in Sources */,
-				022FF08D2165C2750018FF9D /* TrackingViewController.swift in Sources */,
 				022FF0892165C0260018FF9D /* MenuViewController.swift in Sources */,
 				022FF0912165D2440018FF9D /* ExampleButton.swift in Sources */,
 				022FF0772165BEE20018FF9D /* AppDelegate.swift in Sources */,

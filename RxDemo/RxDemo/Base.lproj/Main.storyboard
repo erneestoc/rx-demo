@@ -40,26 +40,6 @@
                                             <segue destination="f2U-yE-qMp" kind="push" id="Nmg-fW-NDI"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="Sz9-Cw-Ww1">
-                                        <rect key="frame" x="0.0" y="72" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Sz9-Cw-Ww1" id="UV0-Ju-FYF">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tracking Example" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OwF-em-QKx">
-                                                    <rect key="frame" x="26" y="11" width="135" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="E6t-Hs-Hd2" kind="push" id="eeD-5V-NgD"/>
-                                        </connections>
-                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -73,22 +53,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i44-T5-rce" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-268" y="-69"/>
-        </scene>
-        <!--Tracking-->
-        <scene sceneID="ApG-dh-e5c">
-            <objects>
-                <viewController id="E6t-Hs-Hd2" customClass="TrackingViewController" customModule="RxDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="t2d-E9-Vi0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="ajS-4N-DbX"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Tracking" id="BWe-Yd-A8e"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Cs1-Sj-jV3" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="585" y="374"/>
         </scene>
         <!--Form-->
         <scene sceneID="Vuc-A6-jhb">
@@ -147,7 +111,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EEP-DC-oSx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="586" y="-369"/>
+            <point key="canvasLocation" x="564" y="-70"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="eWf-3e-UjV">
